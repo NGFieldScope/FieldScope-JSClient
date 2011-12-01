@@ -1,0 +1,29 @@
+{
+  "info" : 
+  {
+    "name" : "FieldScope",
+    "summary" : "Collaborative Mapping for Education",
+    "description" : "National Geographic FieldScope is a web-based mapping, analysis, and collaboration tool designed to support geographic investigations and engage students as citizen scientists investigating real-world issues - both in the classroom and in outdoor education settings. FieldScope enhances student scientific investigations by providing rich geographic context - through maps, mapping activities, and a rich community where student fieldwork and data is integrated with that of peers and professionals, adding analysis opportunities and meaning to student investigations.",
+    "homepage" : "http://www.fieldscope.org",
+    "license" : "LGPL",
+    "authors" : 
+    [
+      {
+        "name" : "Eric Russell",
+        "email" : "erussell@ngs.org"
+      }
+    ],
+    "version" : "master",
+    "qooxdoo-versions": ["1.5"]
+  },
+  "provides" : 
+  {
+    "namespace"   : "fs",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation",
+    "type"        : "application"
+  }
+}
+
